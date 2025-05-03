@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Raíces Dulces - Mermeladas Artesanales</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fffaf3;
+      color: #333;
+    }
+
+    header {
+      background-color: #a33e2e;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      text-align: center;
+      margin-top: 10px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #a33e2e;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background: url('https://images.unsplash.com/photo-1607093800858-0d72c34a64bc') no-repeat center center/cover;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .content {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .producto {
+      background-color: #fdf1ec;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    footer {
+      background-color: #a33e2e;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Raíces Dulces</h1>
+    <p>Mermeladas artesanales con frutas frescas de la selva</p>
+  </header>
+
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#nosotros">Nosotros</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <div class="hero">
+    <h2>¡Endulza tu vida con sabor natural!</h2>
+    <p>Descubre nuestras mermeladas 100% artesanales</p>
+  </div>
+
+  <div class="content" id="productos">
+    <h2>Nuestras Mermeladas</h2>
+    <div class="producto">
+      <h3>Mermelada de Piña y Jengibre</h3>
+      <p>Elaborada con piñas seleccionadas y un toque picante de jengibre.</p>
+    </div>
+    <div class="producto">
+      <h3>Mermelada de Aguaymanto</h3>
+      <p>Un superalimento en una dulce presentación, ideal para el desayuno.</p>
+    </div>
+    <div class="producto">
+      <h3>Mermelada de Mango y Maracuyá</h3>
+      <p>Una combinación tropical irresistible.</p>
+    </div>
+  </div>
+
+  <div class="content" id="nosotros">
+    <h2>Sobre Nosotros</h2>
+    <p>Raíces Dulces nace del amor por la tierra y el deseo de compartir los sabores auténticos de la selva peruana. Cada frasco es preparado con cariño, respetando procesos artesanales y cuidando cada ingrediente.</p>
+  </div>
+
+  <div class="content" id="contacto">
+    <h2>Contacto</h2>
+    <p>📞 Teléfono: +51 987 654 321</p>
+    <p>📧 Correo: raicesdulces@gmail.com</p>
+    <p>📍 Tingo María, Perú</p>
+  </div>
+
+  <footer>
+    &copy; 2025 Raíces Dulces. Todos los derechos reservados.
+  </footer>
+</body>
+</html>
